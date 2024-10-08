@@ -1,0 +1,27 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github-arc
+  description: github-arc
+  annotations:
+    github.com/project-slug: schabo/helm-gh-arc
+    argocd/app-name: helm-gh-arc
+    backstage.io/kubernetes-label-selector: 'app=gh-arc'
+  links:
+    - url: https://github.com/schabo/helm-gh-arc
+      title: Github Actions Controller helm repository
+      icon: github
+      type: Code
+    - url: https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller
+      title: Actions Runner Controller
+      icon: docs
+      type: docs
+  tags:
+    - github
+    - arc
+
+spec:
+  type: code
+  owner: schabo
+  lifecycle: testing
