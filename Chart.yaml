@@ -9,5 +9,5 @@ deprecated: false
 dependencies:
   - name: gha-runner-scale-set-controller
     version: 0.9.3
-    repository: oci://ghcr.io/actions/actions-runner-controller-charts
+    repository: ghcr.io/actions/actions-runner-controller-charts
 
