@@ -15,7 +15,8 @@ gha-runner-scale-set-controller:
     # Overrides the image tag whose default is the chart appVersion.
     tag: ""
 
-  imagePullSecrets: ghcr-io-secret
+  imagePullSecrets: 
+    - ghcr-io-secret
   nameOverride: ""
   fullnameOverride: ""
 
