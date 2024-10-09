@@ -7,7 +7,7 @@ version: 0.1.0
 deprecated: false
 
 dependencies:
-  - name: arc
+  - name: gha-runner-scale-set-controller
     version: 0.9.3
-    repository: oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set-controller
+    repository: oci://ghcr.io/actions/actions-runner-controller-charts
 
