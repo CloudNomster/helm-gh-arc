@@ -7,7 +7,6 @@ metadata:
   annotations:
     github.com/project-slug: schabo/helm-gh-arc
     argocd/app-name: helm-gh-arc
-    backstage.io/kubernetes-label-selector: 'app=gh-arc'
   links:
     - url: https://github.com/schabo/helm-gh-arc
       title: Github Actions Controller helm repository
@@ -23,5 +22,5 @@ metadata:
 
 spec:
   type: code
-  owner: schabo
-  lifecycle: testing
+  owner: markku@techmonkeys.se
+  lifecycle: production
