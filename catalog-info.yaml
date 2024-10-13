@@ -22,5 +22,5 @@ metadata:
 
 spec:
   type: code
-  owner: TechMonkeys/markku@techmonkeys.se
+  owner: group:TechMonkeys
   lifecycle: production
