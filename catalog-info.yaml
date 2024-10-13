@@ -22,5 +22,5 @@ metadata:
 
 spec:
   type: code
-  owner: group:TechMonkeys
+  owner: group:team-nomster
   lifecycle: production
