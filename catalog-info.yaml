@@ -25,3 +25,5 @@ spec:
   type: service
   owner: group:team-nomster
   lifecycle: production
+  dependsOn: 
+    - component:github-arc-runners
